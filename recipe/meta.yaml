@@ -1,13 +1,13 @@
 {% set name = "bigearthnet-gdf-builder" %}
-{% set version = "0.1.8" %}
+{% set version = "0.1.10" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/bigearthnet_gdf_builder-{{ version }}.tar.gz
-  sha256: 66f8f8549717924f514fa3c96cf16412765407e35b8db667665e32f9b82c1b75
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 8e27d43d1cb6c375e2f37b80f6baf5db65e766bd36d79beba14b78b687f60b24
 
 build:
   entry_points:
